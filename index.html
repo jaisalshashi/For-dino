@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Websites</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  min-height:100vh;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  font-family:'Inter',sans-serif;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+/* MAIN CARD */
+.wrapper{
+  width:100%;
+  max-width:480px;
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(18px);
+  border-radius:26px;
+  padding:28px;
+  box-shadow:0 30px 80px rgba(0,0,0,.6);
+}
+
+h1{
+  text-align:center;
+  font-weight:600;
+  margin-bottom:22px;
+}
+
+/* LINK LIST */
+.links{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.link-card{
+  background:rgba(255,255,255,.12);
+  border-radius:18px;
+  padding:16px 18px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  transition:.3s ease;
+}
+.link-card:hover{
+  background:rgba(255,255,255,.18);
+  transform:translateY(-2px);
+}
+
+.link-title{
+  font-size:1rem;
+  font-weight:500;
+}
+
+.link-btn{
+  padding:8px 16px;
+  background:#00c6ff;
+  color:#003344;
+  border-radius:999px;
+  text-decoration:none;
+  font-size:.9rem;
+  font-weight:600;
+}
+
+.footer{
+  text-align:center;
+  margin-top:18px;
+  font-size:.75rem;
+  opacity:.6;
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+  <h1>My Websites</h1>
+
+  <div class="links">
+    <div class="link-card">
+      <div class="link-title">Birthday Surprise Website</div>
+      <a class="link-btn" href="https://example.com/birthday" target="_blank">Open</a>
+    </div>
+
+    <div class="link-card">
+      <div class="link-title">Valentine Special Page</div>
+      <a class="link-btn" href="https://example.com/valentine" target="_blank">Open</a>
+    </div>
+
+    <div class="link-card">
+      <div class="link-title">Portfolio Showcase</div>
+      <a class="link-btn" href="https://example.com/portfolio" target="_blank">Open</a>
+    </div>
+
+    <div class="link-card">
+      <div class="link-title">Interactive Game Page</div>
+      <a class="link-btn" href="https://example.com/game" target="_blank">Open</a>
+    </div>
+
+    <div class="link-card">
+      <div class="link-title">Custom Landing Page</div>
+      <a class="link-btn" href="https://example.com/landing" target="_blank">Open</a>
+    </div>
+  </div>
+
+  <div class="footer">Created by Shashi</div>
+</div>
+
+</body>
+</html>
